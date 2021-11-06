@@ -1,0 +1,68 @@
+body {
+    background-color: #e8eff8;
+}
+
+.navigation {
+    background-color: #2E83F2;
+}
+
+.stat {
+    border-radius: 30px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+#pod-logo {
+    color: rgb(235, 240, 240);
+}
+
+.nav-navbar {
+    color: black;
+}
+
+article {
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.aside {
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.back {
+    height: 70px;
+}
+
+.navbar-toggler {
+    color: blanchedalmond!important;
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .aside h4 {
+        font-size: 20px;
+    }
+    .aside p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .aside h4 {
+        font-size: 15px;
+    }
+    .aside p {
+        font-size: 10px;
+    }
+}
